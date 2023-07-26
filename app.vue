@@ -30,3 +30,11 @@ useHead({
   <Header/>
   <NuxtPage />
 </template>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+  body{
+    font-family: "Lexend", sans-serif;
+  }
+</style>

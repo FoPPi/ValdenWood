@@ -15,7 +15,7 @@
         <img class="max-w-[200px]" src="/logo.svg" alt="logo">
         <p class="px-4">Майстерня меблів на замовлення Valden Wood. Виробимо для вас меблі преміум-класу у Києві та області  під ключ.</p>
         <div class="flex flex-row space-x-6 items-center ">
-          <a class="flex items-center hover:scale-110 transform duration-300">
+          <a  href="https://www.instagram.com/valden_wood/" target="_blank"  class="flex items-center hover:scale-110 transform duration-300">
             <button class="inst-button flex items-center p-2">
               <img src="/social/instagram.svg" alt="instagram" class="w-6 h-6 mr-2"/>
               <span class="opacity-[0.15] text-[#061C3D]">|</span>
@@ -46,3 +46,5 @@
 
   </footer>
 </template>
+<script setup lang="ts">
+</script>

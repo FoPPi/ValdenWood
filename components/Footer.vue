@@ -2,7 +2,7 @@
   <footer>
     <div class="flex flex-col lg:flex-row items-center justify-center text-center space-y-10 lg:space-y-0 lg:space-x-20 lg:my-40 px-3">
 
-      <div class="flex flex-col items-center justify-center text-center max-w-[424px] space-y-2">
+      <div class="flex flex-col items-center justify-center text-center w-[424px] space-y-2">
         <h3 class="text-2xl font-bold text-[#2F1566]">Контакти</h3>
         <div class="flex flex-col text-[#6A778B]">
           <a class="hover:bg-[#F1EBFF] p-1 rounded-lg transform duration-300" href="tel:+380952290123">+38 (095) 229 01 23</a>
@@ -11,7 +11,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col items-center max-w-[424px] space-y-2">
+      <div class="flex flex-col items-center w-[424px] space-y-2">
         <img class="max-w-[200px]" src="/logo.svg" alt="logo">
         <p class="px-4">Майстерня меблів на замовлення Valden Wood. Виробимо для вас меблі преміум-класу у Києві та області  під ключ.</p>
         <div class="flex flex-row space-x-6 items-center ">
@@ -32,7 +32,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col max-w-[424px] space-y-2">
+      <div class="flex flex-col w-[424px] space-y-2">
         <h3 class="text-2xl font-bold text-[#2F1566]">Адреса</h3>
         <p class="text-lg text-[#6A778B]">ТЦ. Діамант<br/>м. Київ, Петропавлівська Борщагівка,вул. Петропавлівська, 14-Е 2 поверх</p>
       </div>

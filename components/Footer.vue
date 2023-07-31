@@ -40,7 +40,7 @@
 
     <hr class="border-[#141414] opacity-40 my-4 mx-48" />
     <div class="flex mt-3 mb-5 items-center text-#061C3D[] justify-center space-x-5 sm:space-x-24 lg:space-x-48">
-      <a class="hover:text-[#2F1566] transform duration-300" href="https://green-line-studio.vercel.app/" target="_blank">Developed by: Green Line Studio</a>
+      <a class="hover:text-[#2F1566] transform duration-300" href="https://green-line-studio.xyz/" target="_blank">Developed by: Green Line Studio</a>
       <p>© 2013-2023 - Valden Wood</p>
     </div>
 

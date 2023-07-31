@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     enabled: true,
 
     timeline: {
-      enabled: true
+      enabled: true,
     }
   },
   colorMode: {

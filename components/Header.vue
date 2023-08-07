@@ -2,11 +2,10 @@
 
   const menuItems = [
     { name: "Головна", link: "/" },
-    { name: "Про нас", link: "/about" },
     { name: "Кухнi", link: "/kitchens" },
     { name: "Шафи", link: "/closets" },
-    { name: "Ванни кiмнати", link: "/bathrooms" },
-    { name: "Нашi проекти", link: "/projects" },
+    { name: "Ванні кiмнати", link: "/bathrooms" },
+    { name: "Про нас", link: "/about" },
   ];
 
   const isActive = (path) => {
@@ -24,8 +23,10 @@
 
 <template>
   <header class="flex justify-center z-20">
-    <div class="flex bg-white flex-row items-center justify-between p-4 w-[1400px] m-10 max-w-[1400px] rounded-2xl shadow-custom relative">
-      <img src="/logo.svg" alt="logo"/>
+    <div class="flex bg-white flex-row items-center justify-between p-4 w-[1400px] mx-3 lg:mx-10 my-10 max-w-[1400px] rounded-2xl shadow-custom relative">
+      <NuxtLink to="/">
+        <img src="/logo.svg" alt="logo"/>
+      </NuxtLink>
       <ul class="hidden lg:flex text-[#838E9E] flex-row p-4 space-x-5 xl:space-x-10">
         <li v-for="(item, index) in menuItems" :key="index">
           <NuxtLink

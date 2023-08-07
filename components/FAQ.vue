@@ -6,7 +6,7 @@ export default {
         {
           question: '1. Замір усіх стін та комунікацій',
           answer: 'Для обмірювання всіх стін та комунікацій для створення макета меблів',
-          expanded: false,
+          expanded: true,
         },
         {
           question: '2. Створення макету проекту',
@@ -44,7 +44,7 @@ export default {
   <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
       <div class="max-w-2xl mx-auto text-center">
-        <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Як мы працюємо?</h2>
+        <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Як ми працюємо?</h2>
         <p class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">Знизу ви можете побачити послідовність дій, які відбуваються при роботі з нами</p>
       </div>
 

@@ -45,7 +45,7 @@
 
 
   <section class="flex justify-center mt-36">
-    <div class="flex flex-col max-w-[1320px] p-2 space-y-10">
+    <div class="flex flex-col max-w-[1320px] py-2 px-4 space-y-10">
       <h3 class="flex text-5xl font-bold">Що ми<br/>створюємо?</h3>
       <div
           v-for="(item, index) in portfolio"
@@ -53,7 +53,7 @@
           class="portfolio-item flex flex-col-reverse xl:flex-row"
       >
         <div class="portfolio-content flex-1 xl:ml-10">
-          <h4 class="text-3xl font-bold text-[#2F1566]">{{ item.title }}</h4>
+          <h4 class="text-3xl mt-2 lg:mt-0 font-bold text-[#2F1566]">{{ item.title }}</h4>
           <p class="text-lg text-[#42526B] my-5">{{ item.text }}</p>
           <NuxtLink
               class="text-[#7534FF] text-lg rounded-lg bg-[#F1EBFF] hover:bg-[#c0bccc] py-3 px-8 transform duration-300"

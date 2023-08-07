@@ -31,14 +31,14 @@
   <div class="flex flex-wrap justify-center px-4">
     <div
         v-for="(item, index) in kitchens"
-        class="flex flex-col m-6 text-left max-w-[624px] bg-white rounded-lg hover:shadow-custom hover:scale-[101%] transform duration-300 group"
+        class="flex flex-col m-6 text-left max-w-[624px] bg-white rounded-lg hover:shadow-custom transform duration-300"
         :key="index"
     >
       <img :src="'/kitchens/' + item.image" :alt="`kitchen ` + index">
-      <div class="border-[1px] border-[#E6E8EC] border-t-0 rounded-b-lg p-[32px] transform duration-300 group-hover:border-transparent">
+      <div class="border-[1px] border-[#E6E8EC] border-t-0 rounded-b-lg p-[32px]">
         <h4 class="mb-[8px] text-xl">{{item.title}}</h4>
         <p class="mb-[4px] text-[#42526B] h-[72px]">{{item.text}}</p>
-        <button class="text-[#7534FF] hover:text-[#915DFF] transform duration-300" @click="isOpen = true">Дізнатись вартість <Icon name="material-symbols:arrow-forward" size="20px"/></button>
+        <button class="text-[#7534FF]" @click="isOpen = true">Дізнатись вартість <Icon name="material-symbols:arrow-forward" size="20px"/></button>
       </div>
     </div>
   </div>

@@ -11,5 +11,5 @@ export default defineNuxtConfig({
     preference: 'light',
     fallback: 'light',
   },
-  modules: ["nuxt-icon", "@nuxthq/ui"],
+  modules: ["nuxt-icon", "@nuxthq/ui", "nuxt-swiper"],
 })

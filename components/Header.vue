@@ -2,10 +2,10 @@
 
   const menuItems = [
     { name: "Головна", link: "/" },
-    { name: "Кухнi", link: "/kitchens" },
-    { name: "Шафи", link: "/closets" },
-    { name: "Ванні кiмнати", link: "/bathrooms" },
-    { name: "Про нас", link: "/about" },
+    { name: "Кухнi", link: "/kitchens/" },
+    { name: "Шафи", link: "/closets/" },
+    { name: "Ванні кiмнати", link: "/bathrooms/" },
+    { name: "Про нас", link: "/about/" },
   ];
 
   const isActive = (path) => {
